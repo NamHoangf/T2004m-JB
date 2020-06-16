@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input : repuired{
+            outline: 1px red solid;
+            color: green;
+        }
+        input: repuired:valid{
+            background-size: 10px 10px;
+            background-position: right top;
+            background-repeat: no-repeat ;
+        }
+        input:repuired:user-invalid{
+            background-size: 10px 10px;
+            background-position: right top;
+            background-repeat: no-repeat ;
+        }
+    </style>
+</head>
+<body>
+<label for="telno">telephone number</label>
+<input type="tel" value="" id="telno" name="telephone_no"
+maxlength="10">
+</body>
+</html>
