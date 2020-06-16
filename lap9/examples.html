@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for tags examples</title>
+</head>
+<body>
+<h1>for tags examples</h1>
+<form action="">
+    <p>
+        what did you think of this book?
+    </p>
+    <textarea id="comments" cols="30" rows="10"></textarea>
+    <p>please select your favorite grere</p>
+    <input type="radio" name="genre" value="rook" checked="checked"> rook
+    <input type="radio" name="genre" value="pop"> pop
+    <input type="radio" name="genre" value="jazz"> jazz
+    <p>please select your favorite music service</p>
+    <input type="checkbox" name="service" value="itunes"> itunes
+    <input type="checkbox" name="service" value="spotifi"> spotifi
+    <input type="checkbox" name="service" value="lastfm"> last.fm
+    <p>what devide do you listen to music</p>
+    <select name="devices" multiple="multiple" size="4">
+        <option value="ipod">ipod</option>
+        <option value="ipad">ipad</option>
+        <option value="radio">radio</option>
+        <option value="pc">computer</option>
+    </select>
+    <p>upload your song in MP3 format</p>
+    <input type="file" name="song"><br>
+    <input type="submit" value="upload">
+    <fieldset>
+        <legend>contact details</legend>
+        <label for="email">email:</label>
+        <input type="email" id="email"><br>
+        <label for="mobile">mobile</label>
+        <input type="mibile" id="mobile"><br>
+        <label for="tel">telephone</label>
+        <input type="text" id="tel"><br>
+    </fieldset>
+    <h2>search</h2>
+    <input type="search" name="search" placeholder="enter keyword">
+</form>
+</body>
+</html>
