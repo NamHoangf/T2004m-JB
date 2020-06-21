@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REservation</title>
+    <script scr="form.js">
+    </script>
+</head>
+<body>
+<h2>Hotel Reservation Form</h2>
+<form id="frmreservation">
+<table>
+    <tr>
+        <td><label for="txtname">name</label></td>
+        <td><input type="text" id="txtname"></td>
+    </tr>
+    <tr>
+        <td>
+            arrival date:
+        </td>
+        <td><input type="text" id="txtarrival"></td>
+    </tr>
+    <tr>
+        <td>departure date</td>
+        <td><input type="text" id="txtdeparture"></td>
+    </tr>
+    <tr>
+        <td>number of person</td>
+        <td><input type="text" id="txtperson" maxlength="3" size="3"></td>
+    </tr>
+    <tr>
+        <td><img id="imgsubmit" width="120px" height="30px"
+        src="submit.jpg" alt="submit",
+        onmousedown="showimage(this, 'submitdown.jpg');"
+        onmouseup="showimage(this,'submit.jpg',onclick="frmreservation.submit();"> </td>
+    </tr>
+    <td><img id="imgsubmit" width="120px" height="30px"
+             src="reset.jpg" alt="reset",
+             onmousedown="showimage(this, 'resetdown.jpg');"
+             onmouseup="showimage(this,'reset.jpg',onclick="frmreservation.reset();">
+    </td>
+</table>
+</form>
+</body>
+</html>

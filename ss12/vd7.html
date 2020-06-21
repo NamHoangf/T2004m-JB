@@ -1,0 +1,11 @@
+function numericonly()
+{
+if(!event.keycode >= 48 && event.keycode <57)
+   event.returnvalue=false;
+}
+function countwords()
+{
+var message = document.getElenmentbyID('txtmessage'.value;
+message = message.replace(/\s+/g,'');
+var numberOfWords = message.split('').length;
+document.getElementByID('txtTrack').value = words remaining :

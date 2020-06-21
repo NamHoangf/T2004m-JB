@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>reservation</title>
+    <script>
+        function showstyle(field) {
+         field.style.backgroundColor='#FFFFCC'
+        }
+        function hidestyle(field) {
+         field.style.backgroundColor='#FFFFFF'
+        }
+        function setfontstyle(field) {
+         field.style.fontWeight='bold';
+         field.style.fontFamily='arial';
+        }
+    </script>
+</head>
+<body>
+<h2> Feedback form</h2>
+<table>
+    <tr>
+        <td><label for="txtname">name:</label></td>
+        <td><input type="text" id="txtname" onfocus="showstyle(
+            (this)" onblur="hidestyle(this);" onselect="setfontstyle(this);">
+        </td>
+    </tr>
+
+</table>
+</body>
+</html>
