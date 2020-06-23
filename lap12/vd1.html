@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var name=new Array('james','kevin','brad');
+    function change_name(names) {
+     name[0]='stuart';
+    }
+    function display_name()
+    {
+     document.write('<h3>list of student names:</h3>');
+     document.write('<ul>');
+     for(var i=0; i<names.length; i++)
+     {
+         document.write('<li>' + names[i]+ '</li>');
+     }
+     document.write('</ul>');
+     change_names(names);
+     document.write('<h3>list of changed student names:</h3>');
+        document.write('<ul>');
+        for(var i=0; i<names.length; i++)
+        {
+            document.write('<li>' + names[i]+ '</li>');
+        }
+        document.write('</ul>');
+    }
+    display_names(names);
+</script>
+</body>
+</html>
