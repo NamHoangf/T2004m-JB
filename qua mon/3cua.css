@@ -1,0 +1,41 @@
+body{
+    max-width: 1000px;
+    padding: 0px;
+    margin: 0px;
+    background: blue;
+}
+#logo img{
+    background-color: #05bfee;
+    width: 950px;
+    height: 50px;
+}
+#star{
+    margin: auto;
+    padding-right: 400px;
+    padding-left: 400px;
+}
+#mon ol li {
+    color: beige;
+    list-style: none;
+    padding-bottom:0px;
+    margin-right:300px;
+    margin-left: 300px;
+}
+#mon ol li span{
+    font-size:30px;
+    font-family:monospace;
+    color: darkred;
+}
+#door{
+    margin-right:305px;
+    margin-left: 305px;
+}
+#mun{
+    margin-right:430px;
+    margin-left: 430px;
+    background-color: darkred;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
